@@ -12,6 +12,9 @@
 		1789C3DE1C98075B007005A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789C3DC1C98075B007005A8 /* Main.storyboard */; };
 		1789C3E01C98075B007005A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1789C3DF1C98075B007005A8 /* Assets.xcassets */; };
 		1789C3E31C98075B007005A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789C3E11C98075B007005A8 /* LaunchScreen.storyboard */; };
+		1789C3EB1C980770007005A8 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1789C3EA1C980770007005A8 /* Setting.plist */; };
+		1789C3ED1C984102007005A8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789C3EC1C984102007005A8 /* TableViewCell.swift */; };
+		1789C3EF1C985C26007005A8 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789C3EE1C985C26007005A8 /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1789C3DF1C98075B007005A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1789C3E21C98075B007005A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1789C3E41C98075B007005A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789C3EA1C980770007005A8 /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
+		1789C3EC1C984102007005A8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1789C3EE1C985C26007005A8 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 			children = (
 				1789C3D81C98075B007005A8 /* AppDelegate.swift */,
 				1789C3DA1C98075B007005A8 /* ViewController.swift */,
+				1789C3EE1C985C26007005A8 /* SubViewController.swift */,
+				1789C3EC1C984102007005A8 /* TableViewCell.swift */,
 				1789C3DC1C98075B007005A8 /* Main.storyboard */,
 				1789C3DF1C98075B007005A8 /* Assets.xcassets */,
 				1789C3E11C98075B007005A8 /* LaunchScreen.storyboard */,
+				1789C3EA1C980770007005A8 /* Setting.plist */,
 				1789C3E41C98075B007005A8 /* Info.plist */,
 			);
 			path = SLUITableViewWithPlist;
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1789C3E31C98075B007005A8 /* LaunchScreen.storyboard in Resources */,
+				1789C3EB1C980770007005A8 /* Setting.plist in Resources */,
 				1789C3E01C98075B007005A8 /* Assets.xcassets in Resources */,
 				1789C3DE1C98075B007005A8 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1789C3ED1C984102007005A8 /* TableViewCell.swift in Sources */,
 				1789C3DB1C98075B007005A8 /* ViewController.swift in Sources */,
 				1789C3D91C98075B007005A8 /* AppDelegate.swift in Sources */,
+				1789C3EF1C985C26007005A8 /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
